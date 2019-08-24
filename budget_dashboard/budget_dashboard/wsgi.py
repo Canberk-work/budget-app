@@ -1,5 +1,5 @@
 """
-WSGI config for budget_app project.
+WSGI config for budget_dashboard project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 

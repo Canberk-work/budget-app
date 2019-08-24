@@ -16,12 +16,11 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATE_DIR = os.path.join(BASE_DIR, "templates")
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'x_kcxvxz+(61s=9dih1y&wg-di#hw*dk4fcvej-4zq@oqx!e&z'
+SECRET_KEY = 'uj+&$_+o45ewr)eem3b6(4))@ov^rp6^2axuobr!=h4gq^mwgc'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -38,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'test_app',
+    'budget_app',
 ]
 
 MIDDLEWARE = [
