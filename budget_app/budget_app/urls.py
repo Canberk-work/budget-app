@@ -20,6 +20,6 @@ from test_app import views
 
 urlpatterns = [
     path('', views.index, name="index"),
-    path('test_app/', include('test_app.urls')),
+    path('test_app/', include('test_app.urls')), #test_app is the url name, you can use anything you want.
     path('admin/', admin.site.urls),
 ]
