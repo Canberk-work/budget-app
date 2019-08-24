@@ -13,7 +13,7 @@ def index(request):
 #I've used the index name for everything as the html file name is index.html
 paths = [
             "index.html",
-            "test_app",
+            "budget_app",
 ]
 
 path_lenghts = [];

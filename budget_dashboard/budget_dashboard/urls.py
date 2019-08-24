@@ -1,4 +1,4 @@
-"""budget_app URL Configuration
+"""budget_dashboard URL Configuration
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/2.2/topics/http/urls/
@@ -20,6 +20,6 @@ from test_app import views
 
 urlpatterns = [
     path('', views.index, name="index"),
-    path('test_app/', include('test_app.urls')), #test_app is the url name, you can use anything you want.
+    path('budget_app/', include('budget_app.urls')), #test_app is the url name, you can use anything you want.
     path('admin/', admin.site.urls),
 ]
