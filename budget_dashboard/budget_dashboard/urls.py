@@ -20,6 +20,6 @@ from budget_app import views
 
 urlpatterns = [
     path('', views.index, name="index"),
-    path('help/', include('budget_app.urls')),
+    path('budget_app/', include('budget_app.urls')),
     path('admin/', admin.site.urls),
 ]
